@@ -6,7 +6,7 @@ services:
     build: .
     container_name: html_app
     ports:
-      - "8080:80"
+      - "8081:80"
 
   test:
     image: curlimages/curl
